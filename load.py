@@ -1,4 +1,4 @@
-# Part 1: Load and Clean Superstore Data, and Upload to MySQL
+# Load and Clean Superstore Data, and Upload to MySQL
 
 import pandas as pd
 import mysql.connector
@@ -25,7 +25,7 @@ conn = mysql.connector.connect(
 )
 cursor = conn.cursor()
 
-# Create table (run once)
+# Create table 
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS superstore_sales (
     order_id VARCHAR(20),
