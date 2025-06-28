@@ -20,7 +20,7 @@ df.fillna(0, inplace=True)
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="mullapudi123",
+    password="********",#enter your workbench login credentials
     database="sales"
 )
 cursor = conn.cursor()
