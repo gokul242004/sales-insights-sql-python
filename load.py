@@ -45,6 +45,8 @@ CREATE TABLE IF NOT EXISTS superstore_sales (
 );
 """)
 
+# Clear existing data|| avoid inserting again if we run multiple times
+cursor.execute("TRUNCATE TABLE superstore_sales")
 # Insert data
 for _, row in df.iterrows():
     values = (
