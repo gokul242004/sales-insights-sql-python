@@ -47,9 +47,6 @@ This project analyzes a real-world Superstore dataset using SQL and visualizes i
    - Username: `analyst` | Password: `analyst123`  
    - Username: `admin` | Password: `admin123`
 
-## 📷 Dashboard Preview
-
-![Dashboard Screenshot](preview.png)
 
 ## 📌 Learning Outcomes
 
